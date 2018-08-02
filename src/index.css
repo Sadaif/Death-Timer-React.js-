@@ -1,0 +1,29 @@
+html {
+  background-image: url("https://i.pinimg.com/originals/69/ee/1b/69ee1b7ef9ca20c8cdedf3469e3083cb.jpg");
+  font-family: 'Kaushan Script', cursive;
+  height: 100%; 
+  background-position: center;
+   background-repeat: repeat;
+   background-size: cover;
+  color: aliceblue;
+}
+ 
+.DateForm,
+.DateForm form {
+  display: flex;
+  align-items: center;
+}
+
+.DateForm  {
+  flex-direction: column;
+  margin-bottom: 2em;
+}
+
+.DateForm label {
+  margin-right: 1em;
+}
+
+.DateForm input,
+.DateForm select {
+  margin-right: 3em;
+}
